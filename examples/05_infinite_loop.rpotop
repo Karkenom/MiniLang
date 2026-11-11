@@ -1,0 +1,8 @@
+let counter = 1;
+
+// Условие counter > 0 всегда истинно (бесконечный цикл)
+while counter > 0 {
+    counter = counter + 1;
+}
+
+print("Эта строка никогда не выведется");
